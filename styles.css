@@ -1,0 +1,122 @@
+body {
+    background:white;
+    color:black;
+    padding: 15vh;
+  }
+  
+  .info {
+    position:relative;
+    font-family:Arial;
+    margin:10px;
+    text-align:center;
+    border-radius:5px;
+    font-size:15px;
+  }
+  
+  #title {
+    font-size:20px;
+  }
+  
+  #rest2 {
+    font-size:13px;
+  }
+  
+  #text div {
+    height: 200px;
+    width: 300px;
+    border: 1px dashed gray;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  #text {
+    width:920px;
+    height:620px;
+    background:black;
+    border:5px solid black;
+    margin:auto;
+  }
+  
+  #images {
+    width: 100%
+  }
+  
+  img {
+    height: 200px;
+    width: 300px;
+  }
+  #drag1,
+  #drag2,
+  #drag3,
+  #drag4,
+  #drag5,
+  #drag6,
+  #drag7,
+  #drag8,
+  #drag9
+ {
+    height: 200px;
+    width: 300px;
+    
+    display: inline-block;
+  }
+  
+  #drag1 {
+    background-image: url('seoul_split/seoul_1.jpg'); background-size: 300px 200px;}
+  
+  #drag2 {
+    background-image: url('seoul_split/seoul_2.jpg');  background-size: 300px 200px;}
+  
+  #drag3 {
+    background-image: url('seoul_split/seoul_3.jpg');  background-size: 300px 200px;}
+  
+  #drag4 {
+    background-image: url('seoul_split/seoul_4.jpg');  background-size: 300px 200px;}
+  
+  #drag5 {
+    background-image: url('seoul_split/seoul_5.jpg');  background-size: 300px 200px;}
+  
+  #drag6 {
+    background-image: url('seoul_split/seoul_6.jpg'); background-size: 300px 200px; }
+  
+  #drag7 {
+    background-image: url('seoul_split/seoul_7.jpg');  background-size: 300px 200px;}
+  
+  #drag8 {
+    background-image: url('seoul_split/seoul_8.jpg');  background-size: 300px 200px;}
+  
+  #drag9 {
+    background-image: url('seoul_split/seoul_9.jpg');  background-size: 300px 200px;}
+
+    .puzzle-piece {
+      width: 300px; /* 조각의 너비 */
+      height: 200px; /* 조각의 높이 */
+      position: absolute; 
+      background-size: cover;
+      border: 1px solid black;
+  }
+
+  /* 추가된 CSS */
+  /* 축하 메시지를 표시하는 div의 스타일 */
+  #congratulations {
+    position: fixed; /* 화면 전체에 고정 */
+    top: 0;
+    left: 0;
+    width: 100%; /* 전체 너비 */
+    height: 100%; /* 전체 높이 */
+    background: url('seoul.jpg') no-repeat center center / cover; /* 배경 이미지 설정 */
+    background-size: cover; /* 이미지가 전체를 덮도록 */
+    display: none; /* 초기에는 숨김 */
+    z-index: 1000; /* 다른 요소들 위에 보이도록 */
+    color: white; /* 텍스트 색상 */
+    text-align: center; /* 텍스트 정렬 */
+    padding-top: 30vh; /* 텍스트 위치 조정 */
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 그림자 추가 */
+  }
+
+  #congratulations img {
+    max-width: 100%; /* 이미지 너비를 최대 100%로 제한 */
+    height: auto; /* 이미지 높이 자동 조정 */
+}
